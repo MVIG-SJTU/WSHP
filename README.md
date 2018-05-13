@@ -1,7 +1,7 @@
 
 # Weakly and Semi Supervised Human Body Part Parsing via Pose-Guided Knowledge Transfer
 
-Transfering human body part parsing labels to raw image by exploiting the anatomical similarity. Some transferred results:
+Transferring human body part parsing labels to raw images by exploiting the anatomical similarity. Some transferred results:
 
 <p align="center">
     <img src="imgs/transferred.jpg", width="700px">
@@ -14,11 +14,23 @@ These results are used as extra training samples for the parsing network and can
     <img src="imgs/comparison.gif", width="400px">
 </p>
 
-## Setup
+## Getting Started
 
-### Getting Started
-Code is coming soon!
+#### Demo video
 
+Check out our demo video [here](https://youtu.be/nDqnMpE6b8s).
+
+#### Parsing Network
+
+Checkout `parsing_network` for training\testing\demo code of our parsing network.
+
+#### Data generation
+
+Checkout `data_generation` for code of using keypoints similarity to transfer parsing knowledge and generate synthetic training labels.
+
+## Feedback
+
+If you get any problems during usage, please open an issue.
 
 ## Citation
 If you use this code for your research, please cite our paper:
