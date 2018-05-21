@@ -1,5 +1,7 @@
 
-# Weakly and Semi Supervised Human Body Part Parsing via Pose-Guided Knowledge Transfer
+# Weakly and Semi Supervised Human Body Part Parsing via Pose-Guided Knowledge Transfer 
+
+[[arXiv](https://arxiv.org/abs/1805.04310)]
 
 Transferring human body part parsing labels to raw images by exploiting the anatomical similarity. Some transferred results:
 
