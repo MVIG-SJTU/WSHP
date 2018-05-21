@@ -38,7 +38,7 @@ def get_arguments():
     parser.add_argument("model_weights", type=str,
                         help="Path to the file with model weights.")
     parser.add_argument("--data_list", type=str, default=DATA_LIST,
-                        help="Path to the dance image list.")
+                        help="Path to the image list.")
     parser.add_argument("--num-classes", type=int, default=NUM_CLASSES,
                         help="Number of classes to predict (including background).")
     parser.add_argument("--save-dir", type=str, default=SAVE_DIR,
@@ -73,7 +73,7 @@ def main():
     with tf.name_scope("create_inputs"):
         reader = ImageReader(
             args.img_path,
-            args.dance_list,
+            args.data_list,
             None, # No defined input size.
             False, # No random scale.
             False, # No random mirror.
