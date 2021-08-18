@@ -14,7 +14,13 @@ pip install -user -r requirements.txt
 
 ## Preparation
 
-To train the network, you first need to download the data from [here](https://jbox.sjtu.edu.cn/l/H1Nwz8). It contains data from original Pascal-Person-Part dataset and our generated data. Our released dataset contains over 150K images, which we believe can facilitate the research in the area of human parsing. After downloading the dataset, unzip it to folder `dataset/`. Besides, download the pre-trained weights on COCO dataset from [here](https://jbox.sjtu.edu.cn/l/hJjgjw) or [here](http://mvig.sjtu.edu.cn/publications/wshp/models.zip) and unzip it under current folder.
+To train the network, you first need to download the data from [here](https://jbox.sjtu.edu.cn/l/H1Nwz8). It contains data from original Pascal-Person-Part dataset and our generated data. Our released dataset contains over 150K images, which we believe can facilitate the research in the area of human parsing. After downloading the dataset, unzip it to folder `dataset/`. 
+
+Besides, download the pre-trained weights on COCO dataset from 
+[Baidu Pan](https://pan.baidu.com/s/1AoGJbZ4YHEbV0x89K1-8nQ)(code：r0yb)
+or
+[Gdrive](https://drive.google.com/file/d/1aPb2rilhYestHL_7jJglmCHv7ScIG8MQ/view?usp=sharingand),
+unzip it under current folder.
 
 ## Training
 
